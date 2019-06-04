@@ -57,7 +57,7 @@ public class Forgot extends HttpServlet {
 				RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(url);
 				dispatcher.forward(request,response);
 			}
-		}
+		 }
 		
 	}
 
